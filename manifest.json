@@ -2,7 +2,7 @@
   "name": "Image Clother",
   "version": "1.0",
   "description": "Are you working in public? Or in library or your office? Put color-related-clothes on all images",
-  "permissions": ["tabs", "activeTab", "declarativeContent", "http://*/","https://*/"],
+  "permissions": ["tabs", "activeTab", "declarativeContent", "http://*/","https://*/", "https://www.amazon.ca/"],
   "options_page": "options.html",
   "background": {
     "scripts": ["background.js"],
