@@ -2,6 +2,7 @@ class Hider{
     constructor(img) {
         let W = img.width;
         let H = img.height;
+        this.main_src = img.src;
 
         this.canvas = document.createElement('canvas');
         this.ctx = this.canvas.getContext('2d');
